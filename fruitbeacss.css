@@ -1,0 +1,308 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #e8326a;
+    min-height: 150px;
+
+}
+
+header img {
+    width: 5cm;
+    height: 2.2cm;
+    position: absolute;
+    right: 2.3cm;
+    top: 1cm;
+}
+
+H1 {
+    margin: 0;
+    margin-left: 75%;
+    padding-top: 45px;
+    color: white;
+    font-weight: 50;
+    font-style: unset;
+    font-size: 1cm;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Aria l, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.logo {
+    position: absolute;
+    left: 40%;
+    top: 20px;
+    width: 270px;
+    height: 270px;
+}
+
+.img {
+    background-image: url('http://www.fruitbae.com/images/banner1.png');
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 750px;
+}
+
+.txt {
+    margin: 0;
+    color: #f33177;
+    position: absolute;
+    left: 52%;
+    top: 78%;
+    font-size: 1.5cm;
+    font-weight: 70;
+    font-family: Raleway, sans-serif;
+}
+
+.section {
+    display: inline-block;
+    margin: 0%;
+    bottom: 0;
+    background-color: #e3584b;
+    width: 100%;
+    height: 500px;
+}
+
+.section img {
+
+    margin: -1%;
+    height: 240px;
+    width: 240px;
+    position: relative;
+    left: 9%;
+    top: 1.5cm;
+}
+
+.section h1 {
+    margin: -1%;
+    margin-left: 0%;
+    position: absolute;
+    left: 28%;
+    top: 148%;
+    font-size: 2cm;
+    font-weight: bold;
+    font-family: inherit;
+    font-style: normal;
+}
+
+.para2 {
+
+    position: relative;
+    left: 28%;
+    top: 2mm;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.para3,
+.para4 {
+
+    position: relative;
+    left: 3%;
+    font-size: large;
+    font-weight: 200;
+    color: white;
+    font-family: Oxygen, sans-serif;
+}
+
+.outlet {
+    height: 2cm;
+    position: relative;
+    left: -30%;
+    color: black;
+}
+
+ul {
+    text-align: center;
+    background-color: white;
+    padding-inline: 15px;
+}
+
+.in {
+    margin: 30px;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    width: 8cm;
+    height: 9cm;
+    padding-inline: 15px;
+    outline-style: solid;
+    outline-width: .1px;
+    outline-color: black;
+}
+
+.in h3,
+p {
+    color: black;
+}
+
+.in .f {
+    align-items: center;
+    background-color: #e8326a;
+    width: 2cm;
+    height: 2cm;
+    position: relative;
+    left: 3cm;
+    top: -1cm;
+    border-radius: 50%;
+
+}
+
+
+.in img {
+    width: 1.2cm;
+    height: 1.2cm;
+
+    align-items: center;
+    position: relative;
+    top: .5cm;
+}
+
+.bt {
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    padding: 10px 40px;
+}
+
+.foot {
+    padding-top: 1cm;
+    margin: 0%;
+    margin-top: 1cm;
+    position: relative;
+    top: -1cm;
+    background-color: #f54a39;
+    color: white;
+    size: 2cm;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    padding-left: 1cm;
+    text-align: left;
+
+}
+
+
+.parent {
+    display: flex;
+    color: #e0e0e0;
+}
+
+.enquiry {
+
+    width: 60%;
+    height: auto;
+    position: relative;
+    top: -1.5cm;
+    background-color: #f54a39;
+    padding-left: 1cm;
+    text-align: left;
+    flex-grow: 1;
+
+
+}
+
+label,
+input,
+select,
+option,
+textarea {
+
+    background-color: #f54a39;
+    width: 98%;
+    height: auto;
+
+}
+
+input,
+select,
+option {
+    border-color: white;
+    border-width: .3mm;
+    margin-bottom: .5cm;
+    height: .8cm;
+}
+
+textarea {
+    border-color: white;
+}
+
+.content {
+    position: relative;
+    top: -1.5cm;
+    width: 30%;
+    height: auto;
+    background-color: #f54a39;
+    color: #e0e0e0;
+
+}
+
+.content img {
+    position: relative;
+    left: 1cm;
+    width: 250px;
+    height: 250px;
+}
+
+.fp {
+
+    padding-left: .8cm;
+    text-align: left;
+    font-size: 17px;
+    font-family: Oxygen, sans-serif;
+    color: aliceblue;
+}
+
+.seconfooter {
+    position: relative;
+    top: -1.5cm;
+    background-image: url(http://www.fruitbae.com/images/f-banner.jpg);
+    height: 636px;
+}
+
+.seconfooter img {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 13%;
+    left: 30%;
+}
+
+.hsh img {
+    position: relative;
+    left: -13.5cm;
+    top: -8.6cm;
+    width: 11cm;
+    height: 1.2cm;
+}
+
+.seconfooter h3 {
+    position: relative;
+    top: -6.5cm;
+    left: .5cm;
+    text-align: center;
+    color: aliceblue;
+}
+
+.seconfooter h2 {
+    width: 13cm;
+    height: .7cm;
+    position: relative;
+    top: -7.5cm;
+    left: 10.5cm;
+    font-size: .6cm;
+    color: aliceblue;
+
+}
+
+footer {
+    position: relative;
+    top: -1cm;
+    font-size: .7cm;
+
+}
+
+.bt a {
+    text-decoration: none;
+    color: black;
+}
